@@ -1,12 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-       // Course c = new Course(110, 150, 160, 90);
-
-        Member member1 = new Member("Olga", 150);
-        Member member2 = new Member("Maksim", 160);
-        Member member3 = new Member("Ivan", 200);
-        Member member4 = new Member("Anna", 350);
+        Member member1 = new Member("Olga", 350);
+        Member member2 = new Member("Maksim", 360);
+        Member member3 = new Member("Ivan", 100);
+        Member member4 = new Member("Anna", 150);
 
         Team team = new Team("Lively", member1, member2, member3, member4);
 
@@ -17,7 +15,7 @@ public class Main {
         team.getInfoAboutMembers();
         System.out.println();
         team.getInfoAboutMembersFinished();
-        System.out.println();
+
     }
 
 }

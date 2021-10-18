@@ -8,9 +8,7 @@ public class Course {
     public void isFinishedDistance(Team team) {
         for (Member member: team.getMembers()){
             for (int obstacle: obstacles){
-                if (member.getPossibilites() >= obstacle){
-                    member.setFinished(true);
-                }
+                if (member.getPossibilites() >= obstacle) member.setFinished(true);
                 else {
                     member.setFinished(false);
                     break;
