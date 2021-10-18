@@ -24,4 +24,5 @@ public class Member {
     public int getPossibilites() {
         return possibilites;
     }
+
 }

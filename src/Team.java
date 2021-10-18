@@ -17,8 +17,9 @@ public class Team {
     public void getInfoAboutMembersFinished(){
         System.out.println(name);
         for (Member member: members) {
-            if (member.isFinished());
-            member.getInfo();
+            if (member.isFinished()) {
+                member.getInfo();
+            }
         }
     }
 

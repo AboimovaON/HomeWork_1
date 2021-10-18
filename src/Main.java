@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Member member1 = new Member("Olga", 350);
+        Member member1 = new Member("Olga", 250);
         Member member2 = new Member("Maksim", 360);
         Member member3 = new Member("Ivan", 100);
         Member member4 = new Member("Anna", 150);
